@@ -1,25 +1,48 @@
-body{
-  background-color: black;
-  color: antiquewhite;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.page-body{
-  width: 1176px;
-  margin: 0 auto;
+body {
+  background-color: #070e60;
 }
 
-/*============RESPONSIVENESS==============*/
-
-/*TABLET DISPLAY*/
-@media (max-width: 825px){
-  .page-body{
-    width: 456px;
-  }
+.pages {
+  color: #f0f2f4;
+  text-align: center;
+  font-size: 3.5rem;
+  margin-top: 10%;
 }
 
-/*PHONE DISPLAY*/
-@media (max-width: 425px){
-  .page-body{
-    width: 358px;
-  }
+.abcd{
+  background-color: aliceblue;
+  color: black;
+  font-size: xx-small;
+  height: 500px;
+  overflow: scroll;
+}
+
+.name{
+  align-items: center;
+  width : 75%;
+  font-size: medium;
+}
+
+.idiv{
+  padding-top: 15px;
+  margin: auto;
+  margin-top: 50px;
+  padding-left: 10px;
+  background-color: #f0f2f4;
+  color: #050b50;
+  height: 300px;
+  width : 400px;
+  overflow:scroll;
+  font-size:x-small;
+  border-width: 10px;
+  border-radius: 10px;
+  border-color: rgb(39, 10, 128);
+  border-style: solid;
+  text-align: start;
+  line-height: 20px;
 }
